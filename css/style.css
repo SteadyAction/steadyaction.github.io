@@ -188,12 +188,16 @@ i{
   }
 }
 
-#greeting_image {
-  width: 100%;
-  padding: 20px;
+.greeting_container {
+  display: flex;
+  justify-content: center;
 }
 
-
+#greeting_image {
+  width: 100%;
+  max-width: 550px;
+  padding: 20px;
+}
 
 /* customizable snowflake styling */
 .snowflake {
