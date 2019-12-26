@@ -87,6 +87,7 @@ a {
 }
 .photos-container {
   margin: 0 auto;
+  height: 600px;
 }
 .photos-container .photos {
   border-radius: 2px;
