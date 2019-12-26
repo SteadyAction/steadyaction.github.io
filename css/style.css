@@ -198,13 +198,15 @@ i{
 }
 
 .greeting_container {
-  /* display: flex; */
-  /* justify-content: center; */
+  /* display: flex;
+  justify-content: center; */
 }
 
 #greeting_image {
+  display: block;
   width: 100%;
   padding: 20px;
+  height: auto;
 }
 
 /* customizable snowflake styling */
