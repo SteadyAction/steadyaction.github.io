@@ -13,7 +13,7 @@ h1 {
   color: #ffa3a3;
 }
 a {
-  color: #00B7FF;
+  color: #6a907c;
 }
 .legend {
   margin-top: 20px;
@@ -73,10 +73,10 @@ a {
   display: inline-block;
 }
 .names .name-tag {
-  color: #ffc578;
+  color: #6a907c;
 }
 .names .name-tag.bride {
-  color: #ffa3a3;
+  color: #6a907c;
 }
 .names .bride {
   margin-left: 80px;
@@ -88,12 +88,20 @@ a {
 .photos-container {
   margin: 0 auto;
   padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#wedding-photo {
+  width: 100%;
+  max-width: 550px;
+  max-height: 550px;
+  padding: 20px;
 }
 
 .photos-container .photos {
   border-radius: 2px;
   text-align: center;
-  height: 380px;
 }
 .photos-container .photos img {
   border-radius: 4px;
@@ -139,6 +147,7 @@ i{
 .howto .howto-content-container .howto-title {
   color: #6a907c;
   margin: 20px 0px 10px;
+  font-weight: medium;
 }
 .howto .howto-content-container .howto-content {
   margin: 5px 0 5px;
