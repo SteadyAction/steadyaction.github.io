@@ -198,8 +198,8 @@ i{
 }
 
 .greeting_container {
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 #greeting_image {
