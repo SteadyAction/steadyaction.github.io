@@ -42,15 +42,3 @@ s.src = '//wedinvi.disqus.com/embed.js';
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
-
-$('body').sakura('start', {
-  className: 'sakura', // Class name to use
-  fallSpeed: 0.8,        // Factor for petal fall speed
-  maxSize: 14,         // Maximum petal size
-  minSize: 9,          // Minimum petal size
-  newOn: 350,          // Interval after which a new petal is added
-});
-
-window.setInterval(function() {
-  $('.sakura').remove();
-}, 1000 * 60);
