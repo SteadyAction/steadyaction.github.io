@@ -87,11 +87,13 @@ a {
 }
 .photos-container {
   margin: 0 auto;
-  height: 600px;
+  padding-bottom: 50px;
 }
+
 .photos-container .photos {
   border-radius: 2px;
   text-align: center;
+  height: 380px;
 }
 .photos-container .photos img {
   border-radius: 4px;
