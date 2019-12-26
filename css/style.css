@@ -44,7 +44,7 @@ a {
   justify-content: center;
 }
 
-#dots_image {
+.dots_image {
   width: 30px;
   height: 5px;
 }
