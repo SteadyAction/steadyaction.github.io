@@ -46,7 +46,9 @@ a {
 
 #dots_image {
   width: 30px;
+  height: 5px;
 }
+
 .datetime {
   font-size: 28px;
   font-family: 'Poiret One', cursive;
