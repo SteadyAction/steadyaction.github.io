@@ -194,7 +194,10 @@ i{
 #greeting_image {
   display: block;
   width: 100%;
+  max-width: 500px;
   padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
   height: auto;
 }
 
